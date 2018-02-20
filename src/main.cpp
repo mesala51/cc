@@ -43,4 +43,6 @@ int main() {
   fn();
   int somme = calculerSomme(5.0, 6.0);
   cout << "somme: " << somme << endl;
+  delete (a[1]);
+  delete (a);
 }
