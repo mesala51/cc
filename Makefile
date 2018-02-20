@@ -14,7 +14,7 @@ WARNINGS = -Wall -Werror=return-type
 CXXFLAGS = -g -std=c++11
 
 EXECS =
-#OBJS = build/main.o build/piece.o build/rook.o build/bishop.o
+
 OBJS = main.o piece.o rook.o bishop.o
 
 all: chess
