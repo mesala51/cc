@@ -16,8 +16,6 @@ struct s {
 s z;
 int fn();
 
-
-
 int main() {
   list[0] = Rook__to_Piece(Rook__create(0));
   list[1] = Bishop__to_Piece(Bishop__create(2));
