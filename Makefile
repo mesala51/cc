@@ -32,7 +32,6 @@ printsome.o: src/printsome.cpp
 %.o: src/%.cpp
 	$(BASH_ENV) $(CXX) $(CXXFLAGS) -o $@ -c $<
 
-
 clean:
 	#rm -f $(EXECS)
 	rm -f build/*.o
